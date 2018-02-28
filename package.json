@@ -1,0 +1,19 @@
+{
+  "name": "settle-all-promises",
+  "version": "0.0.1",
+  "description": "Like Promise.all() but lets all promises settle before resolve/reject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmtopp/settle-all-promises.git"
+  },
+  "author": "dmtopp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmtopp/settle-all-promises/issues"
+  },
+  "homepage": "https://github.com/dmtopp/settle-all-promises#readme"
+}
