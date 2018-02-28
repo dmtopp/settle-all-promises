@@ -4,7 +4,7 @@
   "description": "Like Promise.all() but lets all promises settle before resolve/reject.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dmtopp/settle-all-promises/issues"
   },
-  "homepage": "https://github.com/dmtopp/settle-all-promises#readme"
+  "homepage": "https://github.com/dmtopp/settle-all-promises#readme",
+  "devDependencies": {
+    "jest": "~22.4.2"
+  }
 }
